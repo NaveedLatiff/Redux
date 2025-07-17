@@ -1,0 +1,20 @@
+{
+  "name": "redux",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaveedLatiff/Redux.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NaveedLatiff/Redux/issues"
+  },
+  "homepage": "https://github.com/NaveedLatiff/Redux#readme",
+  "description": ""
+}
