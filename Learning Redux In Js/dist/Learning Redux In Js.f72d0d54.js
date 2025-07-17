@@ -704,6 +704,7 @@ let unsubscribe = store.subscribe(()=>{
     console.log(store.getState());
     span.innerText = store.getState().post;
 });
+span.innerText = store.getState().post;
 console.log(store);
 // In this we give the action
 store.dispatch({
@@ -713,7 +714,7 @@ store.dispatch({
     type: increaseBy,
     payload: 2
 });
-// Suscribe will stop when we call the unsubscribe
+// Suscribe will stop when we call the unsubscribe //
 // unsubscribe()
 store.dispatch({
     type: increment
