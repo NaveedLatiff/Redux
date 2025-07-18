@@ -1,0 +1,95 @@
+/* Product container */
+[class^="cont-"] {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    margin: 16px;
+    padding: 16px;
+    width: 280px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Hover effect */
+[class^="cont-"]:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Product image */
+.img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Title */
+.title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+/* Description */
+.desc {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 12px;
+    text-align: center;
+    height: 60px; 
+    overflow: hidden; 
+}
+
+/* Price and button wrapper */
+.cont-price-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Price */
+.price {
+    font-size: 1.1rem;
+    color: #27ae60;
+    font-weight: 700;
+}
+
+/* Add to Cart Button */
+.addBtn {
+    padding: 8px 14px;
+    background-color: #2d87f0;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+.addBtn:hover {
+    background-color: #1b5fbf;
+}
+
+/* Rating */
+.rating {
+    font-size: 0.95rem;
+    color: #f39c12; 
+    font-weight: 600;
+    margin-top: auto;
+}
+
+/* Layout: Wrap all products in a flex container */
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #f4f4f4;
+    padding: 20px;
+}

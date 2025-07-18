@@ -1,0 +1,73 @@
+.cart {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+[class^="cont-"] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    border-bottom: 1px solid #eee;
+}
+
+.pro-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.pro-title {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.price {
+    width: 80px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.increItem, .decreItem {
+    padding: 6px 12px;
+    font-size: 1rem;
+    border: none;
+    background: #2d87f0;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.increItem:hover, .decreItem:hover {
+    background: #1b5fbf;
+}
+
+.buttons span {
+    min-width: 20px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.total-price {
+    width: 80px;
+    text-align: right;
+    font-weight: bold;
+    color: #f39c12;
+}
