@@ -1,0 +1,89 @@
+.cart {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+.cart button {
+    background: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.cart button:hover {
+    background: #c0392b;
+}
+
+/* Cart Item Container */
+[class^="cont-"] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+}
+
+/* Product Image */
+.pro-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* Product Title */
+.pro-title {
+    flex: 1;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Price and Total Price */
+.price, .total-price {
+    color: #1a73e8;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+/* Quantity Buttons */
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.increItem, .decreItem {
+    background: #1a73e8;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-size: 1rem;
+}
+
+.increItem:hover, .decreItem:hover {
+    background: #155ab6;
+}
+
+/* Total Amount */
+span {
+    display: block;
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 20px;
+    color: #333;
+}
